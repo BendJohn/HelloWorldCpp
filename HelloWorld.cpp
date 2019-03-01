@@ -7,6 +7,6 @@ using std::endl;
 int main() {
     printf("Hello, World!");
     cout<<endl;
-    cout<<"Ben John the losser"<<endl;
+    cout<<"Ben John the loser"<<endl;
     return 0;
 }
