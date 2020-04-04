@@ -11,9 +11,9 @@ curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
     https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
 ```
 
-## Part 2: Get Dracula theme
+## Part 2: Get Dracula theme for Vim
 This part is easy! Just copy and paste the following into your .vimrc. The comments tell what each line does.
-```sh
+```vim
 " activates filetype detection
 filetype plugin on
 
@@ -45,3 +45,13 @@ call plug#end()
 " use Dracula theme as default
 colorscheme dracula
 ```
+
+## Part 3: Get Dracula theme for cmd
+The information for this was taken from [Dracula's Powershell Github](https://github.com/dracula/powershell) <br/>
+We can get the dracula-style theme for Vim by changing the cmd.exe environment variable `prompt`:
+```sh
+setx prompt "$E[1;32;40m→ $E[1;36;40m$p$E[1;35;40m› $E[1;37;40m"
+```
+
+## Part 4: Finding more Dracula themes
+You can get more at the [Dracula website](https://draculatheme.com/). They are all free and reasonably light-weight!
