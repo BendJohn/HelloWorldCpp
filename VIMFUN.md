@@ -32,6 +32,7 @@ set backspace=indent,eol,start
 " Set tabs to only 4 spaces
 set vb t_vb=
 set tabstop=4
+set shiftwidth=4
 
 " Add plug ins use vim plug
 " Stored in plugged directory
